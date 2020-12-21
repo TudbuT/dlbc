@@ -1,0 +1,1 @@
+echo -e "\e[48;5;1m\e[38;5;12mTo install the dscf command, run \" curl -sSL https://dlbc.glitch.me/df | bash \"\e[0m\n"

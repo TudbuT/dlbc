@@ -1,0 +1,10 @@
+echo -e "\e[48;5;10m\e[38;5;0m[i]\e[0m Installing/Updating Git"
+yes | sudo apt-get install git>log.txt 2>&1
+echo -e "\e[48;5;10m\e[38;5;0m[i]\e[0m Downloading MC"
+sudo git clone --single-branch --branch master https://github.com/TudbuT/minechat.git>>log.txt 2>&1
+cd minechat
+echo -e "\e[48;5;10m\e[38;5;0m[i]\e[0m Setting up"
+yes | apt-get install mc>>ilog.txt 2>&1
+#mcedit ${PWD}/data.json
+echo -e "\e[48;5;10m\e[38;5;0m[i]\e[0m Installing MC:"
+yes | sudo bash linux

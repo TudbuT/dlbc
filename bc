@@ -1,0 +1,3 @@
+IFS=: read p _ <<< "$PATH"
+echo "cd ${PWD} && echo \"require(\\\"bottyclient\\\")\" | node">$p/bc
+chmod a+x $p/bc

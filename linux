@@ -1,0 +1,10 @@
+echo "Please enter your password: "
+sudo -S echo Password OK!
+
+echo -e "\e[48;5;10m\e[38;5;0m[i]\e[0m Installing/Updating Git"
+sudo -S bash -c "yes | apt-get install git">log.txt 2>&1
+echo -e "\e[48;5;10m\e[38;5;0m[i]\e[0m Downloading BC"
+sudo -S bash -c "yes | git clone --single-branch --branch master https://github.com/TudbuT/bottyclient.git">>log.txt 2>&1
+cd bottyclient
+echo -e "\e[48;5;10m\e[38;5;0m[i]\e[0m Installing BC:"
+sudo -S bash -c "yes | bash linux.sh"
