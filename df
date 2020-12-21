@@ -1,0 +1,3 @@
+IFS=: read p _ <<< "$PATH"
+echo "cd ${PWD} && echo \"require(\\\"discordflood\\\")\" | node">$p/dscf 
+chmod a+x $p/dscf

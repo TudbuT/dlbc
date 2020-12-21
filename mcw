@@ -1,0 +1,1 @@
+echo -e "\e[48;5;1m\e[38;5;12mTo install the mcc command, run \" curl -sSL https://dlbc.glitch.me/mc | bash \"\e[0m\n"
