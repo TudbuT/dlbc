@@ -1,1 +1,1 @@
-echo -e "\e[48;5;1m\e[38;5;12mTo install the bc command, run \" curl -sSL https://dlbc.glitch.me/bc | bash \"\e[0m\n"
+echo -e "\e[48;5;1m\e[38;5;12mTo install the bc command, run \" curl -sSL https://raw.githubusercontent.com/TudbuT/dlbc/main/bc | bash \"\e[0m\n"
